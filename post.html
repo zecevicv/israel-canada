@@ -24,7 +24,7 @@
   <link rel="icon" href="img/favicon.png">
 </head>
 
-<body class="magazine-page">
+<body class="post-page">
 
   <!-- Header -->
   <header class="header">
@@ -65,48 +65,62 @@
     </div>
   </header>
 
-  <!-- Magazine -->
-  <div class="magazine">
+  <!-- Post -->
+  <div class="post">
     <div class="container">
-      <!-- Post / Featured Post -->
-      <div class="post-card featured-post-card">
-        <!-- Img -->
-        <div class="img">
-          <img src="img/magazine/post-1.jpg" alt="israel-canada-img">
-        </div>
-        <!-- Text -->
-        <div class="text">
-          <p class="f-d-16 f-m-24 f-secondary light text-orange">CALCALIST</p>
-          <h2 class="f-d-48 f-m-50 regular">ישראל קנדה תהיה הספונסרית של מכבי ת"א בכדורגל למשך 3 שנים</h2>
-        </div>
-      </div>
       <!-- Heading -->
-      <div class="heading">
-        <h2 class="f-d-60 f-m-75 font-secondary regular text-orange">OUR MAGAZINE</h2>
-        <ul class="f-d-21 f-m-30">
-          <!-- Item -->
-          <li>
-            <a href="#" class="active">הצג הכל</a>
-          </li>
-          <!-- Item -->
-          <li>
-            <a href="#">מן העתונות</a>
-          </li>
-          <!-- Item -->
-          <li>
-            <a href="#">וידאו</a>
-          </li>
-          <!-- Item -->
-          <li>
-            <a href="#">פודקאסט</a>
-          </li>
-          <!-- Item -->
-          <li>
-            <a href="#">מאמרים</a>
-          </li>
-        </ul>
+      <div class="post-heading">
+        <p class="f-d-18 f-m-26 text-orange font-secondary light">BIZPORTAL</p>
+        <h1 class="f-d-48 f-m-55 light">ישראל קנדה מכרה דירות ב-438 מיליון ש' בשכונת גפן בהרצליה</h1>
+        <a href="#" class="f-d-12 f-m-22 font-secondary light"><img src="img/icons/share.svg" alt="israel-canada-img"> SHARE</a>
       </div>
-      <!-- Posts -->
+      <!-- Body -->
+      <div class="post-body">
+        <div class="post-video">
+          <video class="lazy" preload="metadata" loop muted playsinline autoplay data-src="video/video.mp4">
+            <source type="video/mp4" data-src="video/video.mp4" />
+          </video>
+          <!-- Icon -->
+          <div class="icon">
+            <a href="#">
+              <img src="img/icons/video-circle-orange.svg" alt="israel-canada-img">
+            </a>
+          </div>
+        </div>
+        <div class="post-img">
+          <img src="img/post/post-img.jpg" alt="israel-canada-img">
+        </div>
+        <div class="post-text">
+          <p class="f-d-18 f-m-30 light">מדובר ב-150 דירות שנמכרו בחודש וחצי, כשחברת הבת ICR תחל לבנות את הקומפלקס בתחילת
+            הרבעון השני של השנה. ההכנסות הצפויות מהפרויקט: 670 מיליון שקל
+            <br><br>
+            יזמית הנדל"ן ICR של חברת ישראל קנדה +2.52%, הודיעה היום כי מכרה בחודש וחצי 150 דירות בשווי מצרפי של 438 מיליון
+            שקל בפרויקט שכונת גפן שבהרצליה. ההכנסות מפרויקט היוקרה צפויות עמוד על 670 מיליון שקל.
+            <br><br>
+            העבודות על הפרויקט, שהוא חלק ממיזם התחדשות עירונית יחלו באפריל הקרוב, 7 שנים לאחר שהפרויקט יצא לדרך, כשמרבית
+            הדיירים כבר קיבלו הודעת פינוי לפני תחילת עבודות. שכונת גפן החדשה תכלול 400 יח"ד, כשהעבודות צפויות להסתיים בעוד
+            כ-4 שנים.
+            <br><br>
+            הפרויקט משתרע על פני שטח כולל של כ-16 אלף מ"ר ויכלול 8 בניינים בני 7, 9 ו-14 קומות הכוללים סה"כ 400 יח"ד,
+            במקום ה-124 הקיימות, וכן 1,000 מ"ר שטחי מסחר.
+            <br><br>
+            מורדי שבת מנכ"ל ICR אמר כי: "מדובר באירוע מכונן בשלבי הקמת הפרויקט ואנו נרגשים על כך. אנו נמצאים בעיצומה של
+            מכירה בפרויקט שכונת גפן כאשר נמכרו כבר למעלה מ-150 דירות בזמן שיא של כחודש וחצי.
+            <br><br>
+            "השילוב של התחדשות עירונית, תוך שמירה על רווחת בעלי הזכויות שהינם שותפים מלאים לדרך, יאפשר להם לקבל בסופו של
+            יום דירת פרימיום מרווחת, איכותית וחדשה, יחד עם בנייה של מבנים מודרניים. הרצליה נמצאת בתנופת פיתוח אדירה ותמשוך
+            אליה בקרוב אוכלוסייה חדשה, צעירה ואיכותית. מיקום השכונה בצמוד לשכונת גליל ים וקרבה למרכז העיר הרצליה ולצירי
+            תחבורה ראשיים, הופכים את הפרויקט לאיכותי ולאטרקטיבי במיוחד".
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Related Posts -->
+  <div class="related-posts">
+    <div class="container">
+      <h3 class="f-d-60 f-m-90 light text-orange font-secondary">RELATED</h3>
       <div class="posts">
         <!-- Post -->
         <div class="post-card">
@@ -130,106 +144,6 @@
           <div class="text">
             <p class="f-d-11 f-m-22 f-secondary light text-orange">BIZPORTAL</p>
             <h2 class="f-d-28 f-m-42 light">ישראל קנדה מכרה דירות ב-438 מיליון ש' בשכונת גפן בהרצליה</h2>
-          </div>
-        </div>
-        <!-- Post -->
-        <div class="post-card">
-          <!-- Img -->
-          <div class="img">
-            <img src="img/magazine/post-2.jpg" alt="israel-canada-img">
-          </div>
-          <!-- Text -->
-          <div class="text">
-            <p class="f-d-11 f-m-22 f-secondary light text-orange">BIZPORTAL</p>
-            <h2 class="f-d-28 f-m-42 light">ישראל קנדה מכרה דירות ב-438 מיליון ש' בשכונת גפן בהרצליה</h2>
-          </div>
-          <!-- Icon -->
-          <div class="icon">
-            <a href="#">
-              <img src="img/icons/podcast-circle-orange.svg" alt="israel-canada-img">
-            </a>
-          </div>
-        </div>
-        <!-- Post -->
-        <div class="post-card">
-          <!-- Img -->
-          <div class="img">
-            <video class="lazy" preload="metadata" loop muted playsinline autoplay data-src="video/video.mp4">
-              <source type="video/mp4" data-src="video/video.mp4" />
-            </video>
-          </div>
-          <!-- Text -->
-          <div class="text">
-            <p class="f-d-11 f-m-22 f-secondary light text-orange">BIZPORTAL</p>
-            <h2 class="f-d-28 f-m-42 light">ישראל קנדה מכרה דירות ב-438 מיליון ש' בשכונת גפן בהרצליה</h2>
-          </div>
-          <!-- Icon -->
-          <div class="icon">
-            <a href="#">
-              <img src="img/icons/video-circle-orange.svg" alt="israel-canada-img">
-            </a>
-          </div>
-        </div>
-        <!-- Post -->
-        <div class="post-card">
-          <!-- Img -->
-          <div class="img">
-            <img src="img/magazine/post-2.jpg" alt="israel-canada-img">
-          </div>
-          <!-- Text -->
-          <div class="text">
-            <p class="f-d-11 f-m-22 f-secondary light text-orange">BIZPORTAL</p>
-            <h2 class="f-d-28 f-m-42 light">ישראל קנדה מכרה דירות ב-438 מיליון ש' בשכונת גפן בהרצליה</h2>
-          </div>
-        </div>
-        <!-- Post -->
-        <div class="post-card">
-          <!-- Img -->
-          <div class="img">
-            <img src="img/magazine/post-3.jpg" alt="israel-canada-img">
-          </div>
-          <!-- Text -->
-          <div class="text">
-            <p class="f-d-11 f-m-22 f-secondary light text-orange">BIZPORTAL</p>
-            <h2 class="f-d-28 f-m-42 light">ישראל קנדה מכרה דירות ב-438 מיליון ש' בשכונת גפן בהרצליה</h2>
-          </div>
-        </div>
-        <!-- Post -->
-        <div class="post-card">
-          <!-- Img -->
-          <div class="img">
-            <img src="img/magazine/post-2.jpg" alt="israel-canada-img">
-          </div>
-          <!-- Text -->
-          <div class="text">
-            <p class="f-d-11 f-m-22 f-secondary light text-orange">BIZPORTAL</p>
-            <h2 class="f-d-28 f-m-42 light">ישראל קנדה מכרה דירות ב-438 מיליון ש' בשכונת גפן בהרצליה</h2>
-          </div>
-          <!-- Icon -->
-          <div class="icon">
-            <a href="#">
-              <img src="img/icons/podcast-circle-orange.svg" alt="israel-canada-img">
-            </a>
-          </div>
-        </div>
-        <!-- Post -->
-        <div class="post-card">
-          <!-- Img -->
-          <div class="img">
-            <video class="lazy" preload="metadata" loop muted playsinline autoplay data-src="video/video.mp4">
-              <source type="video/mp4" data-src="video/video.mp4" />
-            </video>
-          </div>
-          <!-- Text -->
-          <div class="text">
-            <p class="f-d-11 f-m-22 f-secondary light text-orange">BIZPORTAL</p>
-            <h2 class="f-d-28 f-m-42 light">ישראל קנדה מכרה דירות ב-438 מיליון ש' בשכונת גפן בהרצליה</h2>
-          </div>
-          <!-- Icon -->
-          <div class="icon">
-            <a href="#">
-              <img src="img/icons/video-circle-orange.svg" alt="israel-canada-img">
-            </a>
           </div>
         </div>
       </div>
@@ -277,7 +191,7 @@
             <p class="f-d-16 f-m-28 light">
               :שעות פעילות המוקד הטלפוני
               <br> א'-ה' – בין השעות 9:00-17:00
-            <br><br>
+              <br><br>
               :שעות פעילות המשרד
               <br> א'- ה' – בין השעות 8:00-20:00
               <br> ו' – בין השעות 8:00-13:00
