@@ -1030,3 +1030,179 @@ body {
     margin-right: 2vw;
   } 
 }
+
+/* #Reports
+================================================== */
+@media (min-width: 1024px) {
+  .reports-page {
+    background-image: url('../img/global/bg-primary.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+  }
+}
+
+.reports {
+  padding: 10.4vw 0 8.33vw 0;
+}
+
+.reports .container {
+  width: 46%;
+}
+
+.reports .heading {
+  text-align: center;
+  margin-bottom: 2vw;
+}
+
+.reports h1 {
+  margin-bottom: 1vw;
+}
+
+.reports-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reports-links li:not(:last-child) {
+  margin-left: 3.9vw;
+}
+
+.reports-links a.active {
+  color: #DF4735;
+}
+
+.reports .tab-navigation {
+  margin-bottom: 2.3vw;
+}
+
+.reports .tab-navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reports .tab-btn {
+  padding: 0 1.3vw;
+  height: 2vw;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 500px;
+  border: 1px solid transparent;
+}
+
+.reports .tab-btn:not(:last-child) {
+  margin-left: .5vw;
+}
+
+.reports .tab-btn.active {
+  color: #F14E3A;
+  border-color: #F14E3A;
+}
+
+.report {
+  padding: 1vw 1.8vw; 
+  background-color: #202020;
+  display: flex;
+  align-items: center;
+}
+
+.report:not(:last-child) {
+  margin-bottom: 1vw;
+} 
+
+.report .top {
+  margin-left: 1.8vw;
+  padding-left: 1.8vw;
+  border-left: 1px solid #e0e0e01f;
+}
+
+.report .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.report .bottom a {
+  display: flex;
+  align-items: center;
+  padding-right: 1.8vw;
+  margin-right: 1.8vw;
+  border-right: 1px solid #e0e0e01f;
+}
+
+.report .bottom a img {
+  height: .67vw;
+  margin-right: .25vw;
+}
+
+@media (max-width: 1023.98px) {
+  .reports {
+    padding: 18vw 0 12vw 0;
+  }
+  
+  .reports .container {
+    width: 100%;
+  }
+  
+  .reports .heading {
+    margin-bottom: 6vw;
+  }
+  
+  .reports h1 {
+    margin-bottom: 4.5vw;
+  }
+  
+  .reports-links li:not(:last-child) {
+    margin-left: 4vw;
+  }
+  
+  .reports .tab-navigation {
+    margin-bottom: 8vw;
+  }
+  
+  .reports .tab-btn {
+    padding: 0 2vw;
+    height: 6.66vw;
+  }
+  
+  .reports .tab-btn:not(:last-child) {
+    margin-left: 2vw;
+  }
+
+  .reports .body {
+    padding: 0 5.33vw;
+  }
+
+  .report {
+    padding: 2.66vw 3.33vw;
+    display: block;
+  }
+
+  .report:not(:last-child) {
+    margin-bottom: 2.66vw;
+  } 
+
+  .report .top {
+    border: none;
+  }
+
+  .report .bottom {
+    align-items: flex-start;
+  }
+  
+  .report .bottom a {
+    margin-right: 0;
+    flex: 0 0 13vw;
+    justify-content: flex-end;
+    border: none;
+  }
+  
+  .report .bottom a img {
+    height: 2.5vw;
+    margin-right: 1vw;
+  }
+}
